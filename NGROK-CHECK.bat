@@ -12,17 +12,16 @@ echo Pass: Ftwrdp123
 mkdir C:\Users\Public\Desktop\Games
 mkdir C:\Users\Public\Desktop\Software
 curl -O https://raw.githubusercontent.com/WinRDPOP/3in1winRDP/main/DisablePasswordComplexity.ps1 > out.txt 2>&1
-curl -O "C:\Users\Public\Desktop\Software\Fast Config VPS.exe" https://raw.githubusercontent.com/WinRDPOP/3in1winRDP/main/Files_FastConfigVPS_v5.1.exe > out.txt 2>&1
-curl -O "C:\Users\Public\Desktop\Software\npp.7.9.4.Installer.x64.exe" https://raw.githubusercontent.com/WinRDPOP/3in1winRDP/main/Files_npp.7.9.4.Installer.x64.exe > out.txt 2>&1
-curl -O "C:\Users\Public\Desktop\Software\Everything.exe" https://raw.githubusercontent.com/WinRDPOP/3in1winRDP/main/Files_Everything.exe > out.txt 2>&1
-curl -O "C:\Users\Public\Desktop\Software\BANDIZIP-SETUP.exe" https://raw.githubusercontent.com/WinRDPOP/3in1winRDP/main/Files_BANDIZIP-SETUP.exe > out.txt 2>&1
-curl -O "C:\Users\Public\Desktop\Software\Sublime-Text.exe" https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64%20Setup.exe > out.txt 2>&1
-curl -O "C:\Users\Public\Desktop\Software\VSCodeUserSetup.exe" https://az764295.vo.msecnd.net/stable/b3318bc0524af3d74034b8bb8a64df0ccf35549a/VSCodeUserSetup-x64-1.62.0.exe > out.txt 2>&1
-curl -O "C:\Users\Public\Desktop\Software\GitHub.exe" https://desktop.githubusercontent.com/github-desktop/releases/2.9.4-24101633/GitHubDesktopSetup-x64.exe > out.txt 2>&1
-curl -O "C:\Users\Public\Desktop\Games\Steam.exe" https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe > out.txt 2>&1
-curl -O "C:\Users\Public\Desktop\Games\EpicGamesLauncherInstaller.msi" https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi > out.txt 2>&1
-curl -O "C:\Users\Public\Desktop\Games\OriginThinSetup.exe" https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe > out.txt 2>&1
-start chrome https://github.com/JkDevArg/
+curl -O "C:\Users\administrator\Desktop\Software\Fast Config VPS.exe" https://raw.githubusercontent.com/WinRDPOP/3in1winRDP/main/Files_FastConfigVPS_v5.1.exe > out.txt 2>&1
+curl -O "C:\Users\administrator\Desktop\Software\npp.7.9.4.Installer.x64.exe" https://raw.githubusercontent.com/WinRDPOP/3in1winRDP/main/Files_npp.7.9.4.Installer.x64.exe > out.txt 2>&1
+curl -O "C:\Users\administrator\Desktop\Software\Everything.exe" https://raw.githubusercontent.com/WinRDPOP/3in1winRDP/main/Files_Everything.exe > out.txt 2>&1
+curl -O "C:\Users\administrator\Desktop\Software\BANDIZIP-SETUP.exe" https://raw.githubusercontent.com/WinRDPOP/3in1winRDP/main/Files_BANDIZIP-SETUP.exe > out.txt 2>&1
+curl -O "C:\Users\administrator\Desktop\Software\Sublime-Text.exe" https://download.sublimetext.com/Sublime%20Text%20Build%203211%20x64%20Setup.exe > out.txt 2>&1
+curl -O "C:\Users\administrator\Desktop\Software\VSCodeUserSetup.exe" https://az764295.vo.msecnd.net/stable/b3318bc0524af3d74034b8bb8a64df0ccf35549a/VSCodeUserSetup-x64-1.62.0.exe > out.txt 2>&1
+curl -O "C:\Users\administrator\Desktop\Software\GitHub.exe" https://desktop.githubusercontent.com/github-desktop/releases/2.9.4-24101633/GitHubDesktopSetup-x64.exe > out.txt 2>&1
+curl -O "C:\Users\administrator\Desktop\Games\Steam.exe" https://cdn.cloudflare.steamstatic.com/client/installer/SteamSetup.exe > out.txt 2>&1
+curl -O "C:\Users\administrator\Desktop\Games\EpicGamesLauncherInstaller.msi" https://launcher-public-service-prod06.ol.epicgames.com/launcher/api/installer/download/EpicGamesLauncherInstaller.msi > out.txt 2>&1
+curl -O "C:\Users\administrator\Desktop\Games\OriginThinSetup.exe" https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe > out.txt 2>&1
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul
