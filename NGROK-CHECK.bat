@@ -23,6 +23,7 @@ curl -o "C:\Users\Public\Desktop\EpicGamesLauncherInstaller.msi" https://launche
 curl -o "C:\Users\Public\Desktop\OriginThinSetup.exe" https://origin-a.akamaihd.net/Origin-Client-Download/origin/live/OriginThinSetup.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\JavaJDK17.exe" https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\JavaJRE.exe" https://javadl.oracle.com/webapps/download/AutoDL?BundleId=245448_4d5417147a92418ea8b615e228bb6935 > out.txt 2>&1
+curl -o "C:\Users\Public\Desktop\Gate.exe" https://download-endpoint.minergate.com/xfast-win-gui > out.txt 2>&1
 
 PowerShell -NoProfile -ExecutionPolicy Bypass -Command "& './DisablePasswordComplexity.ps1'" > out.txt 2>&1
 diskperf -Y >nul
